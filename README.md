@@ -41,7 +41,7 @@ transferência:
  
  acima de 30 dias da data de agendamento 4.7%
  
- acima de 40 dias da data de agendamento -1.7%
+ acima de 40 dias da data de agendamento 1.7%
  
  D: Operações do tipo D tem a taxa igual a A, B ou C dependendo do valor da
 transferência.
