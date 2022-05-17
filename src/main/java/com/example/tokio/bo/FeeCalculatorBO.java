@@ -9,10 +9,10 @@ public class FeeCalculatorBO {
 
     private FeeCalculatorBO() {}
 
-    public static final double ABOVE_TEN_DAYS      = 0.082;
-    public static final double ABOVE_TWENTY_DAYS   = 0.069;
-    public static final double ABOVE_THIRTY_DAYS   = 0.047;
-    public static final double ABOVE_FORTY_DAYS    = 0.017;
+    public static final double ABOVE_TEN_DAYS    = 0.082;
+    public static final double ABOVE_TWENTY_DAYS = 0.069;
+    public static final double ABOVE_THIRTY_DAYS = 0.047;
+    public static final double ABOVE_FORTY_DAYS  = 0.017;
 
     public static double feeTypeA(double transferAmount) {
         return round(3 + (transferAmount * 0.03));

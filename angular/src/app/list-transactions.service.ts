@@ -9,7 +9,7 @@ export class ListTransactionsService {
 	allTransactions: any = [];
 
 	constructor(private http: HttpClient) {
-		this.http.get('api/transfer/scheduleMock').subscribe(data => { this.allTransactions = data; });
+		this.http.get('api/transfer/schedule').subscribe(data => { this.allTransactions = data; });
 	}
 
 	getAllTransactions() {

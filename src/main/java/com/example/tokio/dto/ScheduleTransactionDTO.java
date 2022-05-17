@@ -6,9 +6,9 @@ import javax.validation.constraints.NotNull;
 public class ScheduleTransactionDTO {
 
     @NotNull
-    private String from;
+    private String sender;
     @NotNull
-    private String to;
+    private String receiver;
     @NotNull
     private double amount;
     @NotNull
@@ -16,24 +16,30 @@ public class ScheduleTransactionDTO {
     @NotNull
     private String schedule;
 
-    public String getFrom() {
+    @NotNull
+    private String status;
 
-        return from;
+    @NotNull
+    private String type;
+
+    public String getSender() {
+
+        return sender;
     }
 
-    public void setFrom(String from) {
+    public void setSender(String sender) {
 
-        this.from = from;
+        this.sender = sender;
     }
 
-    public String getTo() {
+    public String getReceiver() {
 
-        return to;
+        return receiver;
     }
 
-    public void setTo(String to) {
+    public void setReceiver(String receiver) {
 
-        this.to = to;
+        this.receiver = receiver;
     }
 
     public double getAmount() {
@@ -63,5 +69,21 @@ public class ScheduleTransactionDTO {
     public void setSchedule(String schedule) {
 
         this.schedule = schedule;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

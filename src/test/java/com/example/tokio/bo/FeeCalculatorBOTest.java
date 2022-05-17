@@ -79,10 +79,10 @@ class FeeCalculatorBOTest {
         assertEquals(138.07, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-05-31 15:00:00.000",2001.0)); // 21 days
         assertEquals(207.00, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-05-31 15:00:00.000",3000.0)); // 21 days
 
-        assertEquals(94.05, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-11 15:00:00.000",2001.0));  // 32 days
+        assertEquals(94.05,  FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-11 15:00:00.000",2001.0)); // 32 days
         assertEquals(141.00, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-11 15:00:00.000",3000.0)); // 32 days
 
-        assertEquals(34.02, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-21 15:00:00.000",2001.0));  // 41 days
-        assertEquals(51.00, FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-21 15:00:00.000",3000.0));  // 41 days
+        assertEquals(34.02,  FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-21 15:00:00.000",2001.0)); // 41 days
+        assertEquals(51.00,  FeeCalculatorBO.feeByAmount("2020-05-10 15:00:00.000","2020-06-21 15:00:00.000",3000.0)); // 41 days
     }
 }

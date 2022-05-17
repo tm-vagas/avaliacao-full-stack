@@ -57,8 +57,8 @@ public class ScheduleTransactionMock {
         scheduleTransaction.setAmount(fakeAmount());
         scheduleTransaction.setDate(fakeDate);
         scheduleTransaction.setSchedule(fakeDateInFuture);
-        scheduleTransaction.setFrom(fakeAccount());
-        scheduleTransaction.setTo(fakeAccount());
+        scheduleTransaction.setSender(fakeAccount());
+        scheduleTransaction.setReceiver(fakeAccount());
         scheduleTransaction.setStatus("pending");
         scheduleTransaction.setType("fake");
         return scheduleTransaction;

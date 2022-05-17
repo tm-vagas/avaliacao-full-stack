@@ -21,11 +21,19 @@ class UtilTest {
 
     @Test
     void randomNumber() {
-        int n = 100;
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = Util.randomNumber(10);
-        }
-        assertTrue(arr[0] >= 0);
+        int n = Util.randomNumber(10);
+        assertTrue(n >= 0);
+    }
+
+    @Test
+    void convertTime() {
+        String result = Util.convertTime(1652707181509L);
+        assertEquals("2022-05-16 10:19:41.509", result);
+    }
+
+    @Test
+    void daysToSeconds() {
+        long result = Util.daysToSeconds(1);
+        assertEquals(86400, result);
     }
 }
