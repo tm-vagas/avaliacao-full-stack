@@ -60,3 +60,16 @@ Nota: A persistência deve ser feita em banco de dados em memória (h2, por exem
 Boa sorte!
 
 
+------------------------------------------- // --------------------------------------------------
+
+Segue o meu projeto back-end.
+
+Para conseguir realizar algumas requisições recomendo usar o exemplo abaixo: 
+
+{
+"value": "500000",
+"targetAccount": "200",
+"transfersDate": "05/03/2023",
+"transfersType": "C"
+}
+
