@@ -36,7 +36,7 @@
    
    O database foi projetado utilizando Modelagem de Dados, a partir dos modelos Conceitual e Lógico. Para tal, o software brModelo foi utilizado e deste gerado os arquivos fonte (.brm) e os arquivos de saída (.png) que podem ser acessados no diretório /transfer-backend/src/main/java/br/com/transfer/entity/der
 
-   ![thumb](transfer-backend/src/main/java/br/com/transfer/entity/der/modelo-conceitual.png)
+   ![thumb](/transfer-backend/src/main/java/br/com/transfer/entity/der/modelo-conceitual.png)
 
    Figura 1 - DER (Modelo Conceitual)
 
